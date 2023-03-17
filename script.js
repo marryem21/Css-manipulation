@@ -1,13 +1,6 @@
 const searchIcon = document.querySelector(".search-icon");
 const searchInput = document.querySelector("input");
 
-// searchIcon.addEventListener("click", function () {
-//   searchInput.classList.toggle("show");
-// });
-// searchInput.addEventListener("blur", function () {
-//   searchInput.classList.toggle("show");
-// });
-
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
@@ -15,7 +8,6 @@ function reveal() {
     var windowHeight = window.innerHeight;
     var elementTop = reveals[i].getBoundingClientRect().top;
     var elementVisible = 150;
-
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
     } else {

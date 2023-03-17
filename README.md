@@ -6,6 +6,7 @@ Css manipulation project contains 3 main sections and includes css boxing, trans
 - index.html
 - script.js
 - styles.css
-# Responsiveness
-- Desktop screens: max-width of 1536
-- Mobile screens: max-width of 766
+# Responsiveness: default screen size: 1500px
+- Large screens: max-width of 1500px
+- Mobile screens: max-width of 480px
+- Tablet screens: max-width of 768px and min-width of 481px
